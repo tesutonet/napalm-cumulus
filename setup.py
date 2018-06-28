@@ -12,7 +12,7 @@ reqs = [str(ir.req) for ir in install_reqs]
 
 setup(
     name="napalm-cumulus",
-    version="0.1.0",
+    version="0.2.0-tesuto",
     packages=find_packages(),
     author="Gabriele Gerbino",
     author_email="gabrielegerbino@gmail.com",
