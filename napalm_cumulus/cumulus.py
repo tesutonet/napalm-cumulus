@@ -286,12 +286,12 @@ class CumulusDriver(NetworkDriver):
         command += "-s %d " % int(size)
         command += "-c %d " % int(count)
         if source != "":
-            command += "interface %s " % source
+            command += "-I %s " % source
 
         ping_result = dict()
         output_ping = self.device.send_command(command)
 
-        if "Unknown host" in output_ping:
+        if "unknown host" in output_ping.lower():
             err = "Unknown host"
         else:
             err = ""
