@@ -1,8 +1,8 @@
-[![PyPI](https://img.shields.io/pypi/v/napalm-cumulus.svg)](https://pypi.python.org/pypi/napalm-cumulus)
-[![PyPI](https://img.shields.io/pypi/dm/napalm-cumulus.svg)](https://pypi.python.org/pypi/napalm-cumulus)
-[![Build Status](https://travis-ci.org/napalm-automation/napalm-cumulus.svg?branch=master)](https://travis-ci.org/napalm-automation/napalm-cumulus)
-[![Coverage Status](https://coveralls.io/repos/github/napalm-automation/napalm-napalm-cumulus/badge.svg?branch=master)](https://coveralls.io/github/napalm-automation/napalm-napalm-cumulus)
+NAPALM-CUMULUS
+==============
+This is a community driver to support Cumulus network devices in NAPALM. 
 
+This project was originally forked from https://github.com/napalm-automation-community/napalm-cumulus. For roughly a year the project seems to be abandoned with zero commits. In that repository was a pull request from @andydavidson with work to support cumulus 3.5+ and napalm version 2+. That PR was never merge to the parent repository. It has been added here along with other fixes to support recent versions of napalm and napalm-ansible.
 
-# napalm-cumulus
+This module currently requires the latest develop branch of napalm in order for it to function.
 
